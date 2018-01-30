@@ -1,0 +1,32 @@
+{
+  "name": "block-address",
+  "version": "0.0.4",
+  "description": "create block chain address , such as ltc, btc, eth ....and so on ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooblock/block-address.git"
+  },
+  "keywords": [
+    "ltc",
+    "btc",
+    "eth",
+    "address",
+    "privateKey"
+  ],
+  "author": "admin@cavacn.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooblock/block-address/issues"
+  },
+  "homepage": "https://github.com/wooblock/block-address#readme",
+  "dependencies": {
+    "coininfo": "^3.1.0",
+    "coinkey": "^2.0.0",
+    "coinstring": "^2.3.0",
+    "ethereumjs-util": "^5.1.3"
+  }
+}

@@ -28,6 +28,8 @@ const mainCoins = [
 
 module.exports.coins = coins;
 
+module.exports.mainCoins = mainCoins;
+
 module.exports.createPrivateKey = function () {
     return ck.createRandom()
 };
